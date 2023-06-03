@@ -21,7 +21,7 @@ function Search(props){
                                 <input type="search" name='artist' id='artist' value={artist}
                                 onChange={(e)=> setArtist(e.target.value)} className='form-control' placeholder='Enter Artist Name' required />
                                 <button className="btn btn-success" onClick={submitHandler}>
-                                    <i className="bi bi-search"></i>
+                                    <i className="bi bi-search" ></i>
                                 </button>
                             </div>
                         </div>

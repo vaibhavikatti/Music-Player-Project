@@ -33,7 +33,7 @@ function Music (props){
                     <h3 className='display-3 text-success'>Music</h3>
                 </div>
             </div>
-           <Search searchName={searchArtist}/>
+           <Search searchName={searchArtist} />
 
             <div className="row">
                 {
